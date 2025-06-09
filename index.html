@@ -7,30 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <header id="top">
         <h1>Hello, I'm Kwangu J. Pelaelo</h1>
         <p>Welcome to my portfolio website!</p>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <h2>About me</h2>
         <p>I'm a Data Analyst | IT Technician | Frontend Developer</p>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Medication Supply</li>
-            <li>Hospital Dashboard</li>
-            <li>Database Management</li>
-            <li>Portfolio Website</li>
-        </ul>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal website to showcase
+                    your projects, skills and background</p>
+                    <a href="#">View Project</a>
+            </div>
+             <div class="project-card">
+                <h3>Hospital Dashboard</h3>
+                <p>A personal website to showcase
+                    your projects, skills and background</p>
+                    <a href="https://kwangujp-portfolio.netlify.app" target="_blank">View Project</a>
+            </div>
+             <div class="project-card">
+                <h3>Poultry Feed Supply Tracker</h3>
+                <p>A personal website to showcase
+                    your projects, skills and background</p>
+                    <a href="#">View Project</a>
+            </div>
+        </div>
+
     </section>
 
     <footer>
-        <p>Contact me on: 267 74 769 728
-            Email: kjpelaelo2@gmail.com
-        </p>
+        <p>&copy; 2025 Kwangu James-Pelaelo </p>
+        <div class="social-links">
+            <a href="http://linkedin.com/in/kwangujamespelaelo"
+            target="_blank">LinkedIn</a>
+
+            <a href="http://github.com/kwangujames/"
+            target="_blank">Github</a>
+        </div>
     </footer>
     
 </body>
